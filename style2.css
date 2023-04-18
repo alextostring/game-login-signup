@@ -1,0 +1,84 @@
+body {
+    margin: 0px;
+}
+
+#bg-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    max-width: 100%;
+    max-height: 150%;
+}
+
+label {
+    display: block;
+}
+
+fieldset {
+    position: absolute;
+    justify-content: center;
+    right: 50%;
+    top: 50%;
+    transform: translate(50%, -50%);
+    color: white;
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    border: 2px solid red;
+}
+
+legend {
+    font-family: 'metal mania';
+    font-size: 70px;
+}
+
+label {
+    font-size: 20px;
+    text-align: start;
+
+}
+
+input {
+    border-color: darkred;
+
+    margin: 10px;
+    height: 40px;
+    width: 300px;
+}
+
+#submit {
+    background-color: #d71713;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    padding: 10px 10px;
+    transition: 0.5s;
+    color: #fff;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#submit:hover {
+    color: white;
+    background: #d71713;
+    letter-spacing: 0.15em;
+    box-shadow: 0 0 35px #d71713
+}
+
+a {
+    font-size: 12px;
+    margin-top: 300px;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+
+}
+
+a:hover {
+    color: white;
+
+}
